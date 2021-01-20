@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>outlook_to_graph_samples</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Graph" Version="3.15.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.19.0" />
+  </ItemGroup>
+
+</Project>
